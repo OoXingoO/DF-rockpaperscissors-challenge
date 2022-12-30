@@ -1,26 +1,42 @@
-# RPS Challenge
+RPS Challenge
+=================
+```
+       ,--.--._
+------" _, \___)
+        / _/____)
+        \//(____)
+------\     (__)
+       `-----"
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+    .-.  _
+    | | / )
+    | |/ /
+   _|__ /_
+  / __)-' )
+  \  `(.-')
+   > ._>-'
+  / \/
+```
 
-Instructions
+About the project
 -------
+To create a rock-paper-scissors game using backend only and which meets all basic user stories.
 
-* Feel free to use google, your notes, books, etc. but work on your own
-* If you refer to the solution of another coach or trainee, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9:30am Monday morning
+#### Project approaches
+Check out [myREADME](https://github.com/OoXingoO/DF-rockpaperscissors-challenge/blob/main/my_README.md) for more details.
 
-Task
-----
+### Getting started
 
-The DFA team ( **DFAT** ) have asked you to provide a game for them. The daily grind is pretty tough and they need time to have a little fun.
+- `npm install` → installs project dependencies.
+- `npm start` → run the app on local server.
+- `npm test` → launch the test runner.
 
-As usual please start by
-
-* Forking this repo
-* TEST driving development of your app
-
-Your task is to provide a _Rock, Paper, Scissors_ game for them so they can play on the web with the following user stories:
-
-### Acceptance Criteria
+#### Acceptance Criteria
 ```
 As a DFAT member
 So that I can see my name
@@ -31,7 +47,7 @@ So that I can enjoy myself away from the daily grind
 I would like to be able to play rock/paper/scissors
 ```
 
-Hints on functionality
+#### Further features 
 
 - the DFAT member should be able to enter their name before the game
 - the DFAT member will be presented the choices (rock, paper and scissors)
@@ -39,24 +55,31 @@ Hints on functionality
 - the game will choose a random option
 - a winner will be declared
 
-## Basic Rules
+#### Basic Rules
 
 - Rock beats Scissors
 - Scissors beats Paper
 - Paper beats Rock
 
-In code review we'll be hoping to see:
+Built with
+-------
+![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![expressjs](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![mocha](https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown)
+![chai](https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red)
 
-* All tests passing
-* High test coverage
-* The code is elegant: every class has a clear responsibility, methods are short etc.
+Self-review
+------
+#### What have I learnt
+- Creating a server using NodeJs.
+- How to handle requests for different routes on the server using the ExpressJS framework and how routing can be used to handle different requests and return appropriate responses.
+- Using Mocha & Chai for testings.
+- Using ejs to generate HTML markup with plain JavaScript.
 
-### Extended Acceptance Criteria
+#### What could I do differently?
+- To add css/styling to make page look more appealing and user-friendly.
 
-#### Multiplayer
-
-Change the game so that two DFAT members can play against each other ( _yes there are two of them_ ).
-
-#### Rock, Paper, Scissors, Spock, Lizard
-
-Use the _special_ rules ( _you can find them here http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock_ )
+#### What additional/enhanced features could I add to develop this project further?
+- Adding in multiplayer feature.
+- Extend the game to rock-paper-scissors-spock-lizard.
